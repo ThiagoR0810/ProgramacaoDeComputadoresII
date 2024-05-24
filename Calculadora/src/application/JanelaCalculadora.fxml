@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root prefHeight="263.0" prefWidth="255.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadorascenebuilder.JanelaCalculadoraController">
+   <children>
+      <Button fx:id="btn_C" layoutX="35.0" layoutY="95.0" lineSpacing="2.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="46.0" text="C" />
+      <Button fx:id="btn_7" layoutX="86.0" layoutY="95.0" mnemonicParsing="false" onAction="#botaoPressionado" text="7" />
+      <Button fx:id="btn_8" layoutX="121.0" layoutY="95.0" mnemonicParsing="false" onAction="#botaoPressionado" text="8" />
+      <Button fx:id="btn_9" layoutX="157.0" layoutY="95.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="9" />
+      <Button fx:id="btn_divisao" layoutX="195.0" layoutY="95.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="/" />
+      <Button fx:id="btn_CE" layoutX="35.0" layoutY="135.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="46.0" text="CE" />
+      <Button fx:id="btn_4" layoutX="86.0" layoutY="135.0" mnemonicParsing="false" onAction="#botaoPressionado" text="4" />
+      <Button fx:id="btn_5" layoutX="121.0" layoutY="135.0" mnemonicParsing="false" onAction="#botaoPressionado" text="5" />
+      <Button fx:id="btn_6" layoutX="157.0" layoutY="135.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="6" />
+      <Button fx:id="btn_multiplicacao" layoutX="195.0" layoutY="135.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="*" />
+      <Button fx:id="btn_x2" layoutX="35.0" layoutY="173.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="46.0" text="x^2" />
+      <Button fx:id="btn_1" layoutX="86.0" layoutY="173.0" mnemonicParsing="false" onAction="#botaoPressionado" text="1" />
+      <Button fx:id="btn_2" layoutX="121.0" layoutY="173.0" mnemonicParsing="false" onAction="#botaoPressionado" text="2" />
+      <Button fx:id="btn_3" layoutX="157.0" layoutY="173.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="3" />
+      <Button fx:id="btn_subtracao" layoutX="195.0" layoutY="173.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="-" textAlignment="RIGHT" />
+      <Button fx:id="btn_resto" layoutX="35.0" layoutY="213.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="46.0" text="\%" />
+      <Button fx:id="btn_ponto" layoutX="86.0" layoutY="213.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="29.0" text="." />
+      <Button fx:id="btn_0" layoutX="121.0" layoutY="213.0" mnemonicParsing="false" onAction="#botaoPressionado" text="0" />
+      <Button fx:id="btn_igual" layoutX="156.0" layoutY="213.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="31.0" text="=" />
+      <Button fx:id="btn_soma" layoutX="195.0" layoutY="213.0" mnemonicParsing="false" onAction="#botaoPressionado" text="+" textAlignment="JUSTIFY" />
+      <TextField fx:id="visor" layoutX="34.0" layoutY="57.0" prefHeight="31.0" prefWidth="195.0" />
+   </children>
+</fx:root>

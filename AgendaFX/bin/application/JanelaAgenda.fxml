@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visao.JanelaAgendaController">
+   <children>
+      <Pane layoutX="4.0" layoutY="4.0" prefHeight="283.0" prefWidth="593.0">
+         <children>
+            <Label layoutX="38.0" layoutY="76.0" prefHeight="21.0" prefWidth="47.0" text="Nome:" />
+            <Label layoutX="39.0" layoutY="123.0" text="Telefone:" />
+            <Label layoutX="39.0" layoutY="169.0" text="E-mail:" />
+            <TextField fx:id="tx_nome" layoutX="143.0" layoutY="71.0" prefHeight="31.0" prefWidth="408.0" />
+            <TextField fx:id="tx_telefone" layoutX="143.0" layoutY="118.0" prefHeight="31.0" prefWidth="408.0" />
+            <TextField fx:id="tx_email" layoutX="143.0" layoutY="164.0" prefHeight="31.0" prefWidth="408.0" />
+            <Button fx:id="btn_incluir" layoutX="142.0" layoutY="229.0" mnemonicParsing="false" onAction="#botaoPressionado" prefHeight="31.0" prefWidth="93.0" text="Incluir" />
+            <Button fx:id="btn_consultar" layoutX="312.0" layoutY="229.0" mnemonicParsing="false" onAction="#botaoPressionado" text="Consultar" />
+            <Button fx:id="btn_limpar" layoutX="484.0" layoutY="229.0" mnemonicParsing="false" onAction="#botaoPressionado" text="Limpar" />
+            <Label layoutX="253.0" layoutY="14.0" prefHeight="31.0" prefWidth="83.0" text="Agenda GUI" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
